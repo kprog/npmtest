@@ -1,0 +1,25 @@
+{
+  "name": "npmtest",
+  "version": "1.0.0",
+  "description": "nodejs test",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kprog/npmtest.git"
+  },
+  "keywords": [
+    "npm"
+  ],
+  "author": "kprog",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kprog/npmtest/issues"
+  },
+  "homepage": "https://github.com/kprog/npmtest#readme",
+  "dependencies": {
+    "express": "^4.15.3"
+  }
+}
