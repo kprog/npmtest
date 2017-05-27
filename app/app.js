@@ -6,7 +6,8 @@ app.get('/', function (req, res) {
 })
 
 app.get('/echo', function (req, res) {
-  res.send('echo.')
+  	console.log(res)
+	res.send('echo.')
 })
 
 app.listen(3000)
